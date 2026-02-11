@@ -1,6 +1,7 @@
 import {AndroidUI} from './Android';
 import {IphoneUI} from  './Iphone';
-class MobileBackend implements Backend {
+import {Backend} from  './Backend'
+export class MobileBackend implements Backend {
 
     public getData() {
         return "MobileBackend: Data from the backend";

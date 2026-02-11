@@ -1,3 +1,4 @@
+import { Backend } from "./Backend";
 export abstract class UI{
     protected backend: Backend;
 

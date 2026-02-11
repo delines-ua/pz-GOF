@@ -1,3 +1,4 @@
-abstract class Backend{
+
+export abstract class Backend{
     abstract getData(): string;
 }

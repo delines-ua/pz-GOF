@@ -7,7 +7,11 @@
     "factory": "ts-node src/creational/factory-method/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "singleton": "ts-node src/creational/singleton/index.ts",
-    "bridge": "ts-node src/structural/bridge/WebBackend.ts"
+    "bridge": "ts-node src/structural/bridge/index.ts",
+    "facade": "ts-node src/structural/facade/index.ts",
+    "strategy": "ts-node src/behavioral/strategy/index.ts",
+    "observer": "ts-node src/behavioral/observer/index.ts",
+    "all": "npm run factory && npm run singleton && npm run bridge && npm run facade && npm run strategy && npm run observer"
   },
   "repository": {
     "type": "git",

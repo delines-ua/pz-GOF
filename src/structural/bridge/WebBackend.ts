@@ -1,7 +1,8 @@
 import {AndroidUI} from "./Android";
 import {WebUI} from "./WebUI";
+import { Backend } from "./Backend";
 
-class WebBackend implements Backend {
+export class WebBackend implements Backend {
     public getData(): string {
         return "WebBackend: Data from the backend";
     }
